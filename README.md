@@ -12,7 +12,7 @@
 A community implementation of human-in-the-loop functionality using [GoToHuman](https://www.gotohuman.com/), enabling asynchronous review capabilities. When AI workflows contain unstable outputs, the GoToHuman tool can create rich review interfaces for any output variables from Dify workflow nodes.
 
 
-![GoToHuman Flow](./goto_human/_assets/image.png)
+![GoToHuman Flow](./_assets/image.png)
 
 Key features:
 - Create customizable review pages with various frontend components
@@ -33,7 +33,7 @@ Flow:
 4. On status update, GoToHuman sends a webhook to the endpoint
 5. Endpoint processes the review result and can trigger another Dify app workflow
 
-![GoToHuman Flow](./goto_human/_assets/image%20copy.png)
+![GoToHuman Flow](./_assets/image%20copy.png)
 
 
 
