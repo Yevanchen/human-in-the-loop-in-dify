@@ -1,0 +1,38 @@
+version: 0.0.1
+type: plugin
+author: evanchen
+name: human_in_the_loop
+label:
+  en_US: human_in_the_loop
+  ja_JP: human_in_the_loop
+  zh_Hans: human_in_the_loop
+  pt_BR: human_in_the_loop
+description:
+  en_US: A plugin that enables asynchronous review of workflow variables through GoToHuman tools and endpoints
+  ja_JP: GoToHuman ツールとエンドポイントを通じてワークフロー変数の非同期レビューを可能にするプラグイン
+  zh_Hans: 通过 GoToHuman 工具和端点实现工作流变量的异步审查的插件
+  pt_BR: Um plugin que permite a revisão assíncrona de variáveis de fluxo de trabalho através de ferramentas e endpoints GoToHuman
+icon: icon.jpg
+resource:
+  memory: 268435456
+  permission:
+    endpoint:
+      enabled: true
+    app:
+      enabled: true
+plugins:
+  tools:
+    - provider/goto_human.yaml
+  endpoints:
+    - group/goto_human.yaml
+meta:
+  version: 0.0.1
+  arch:
+    - amd64
+    - arm64
+  runner:
+    language: python
+    version: "3.12"
+    entrypoint: main
+created_at: 2025-01-02T21:34:38.230712+08:00
+verified: false

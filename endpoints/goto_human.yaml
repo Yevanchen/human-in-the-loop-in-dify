@@ -1,0 +1,7 @@
+path: "/goto_human"
+method: "POST"
+extra:
+  python:
+    source: "endpoints/goto_human.py"
+
+

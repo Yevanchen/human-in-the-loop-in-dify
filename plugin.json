@@ -1,0 +1,18 @@
+{
+    "version": "1.0.0",
+    "type": "default",
+    "author": "Your Name",
+    "name": "goto-human",
+    "description": "A plugin for Dify",
+    "icon": "icon.png",
+    "label": "Goto Human Plugin",
+    "created_at": "2024-03-20",
+    "resource": {
+        "cpu": 0.1,
+        "memory": 128
+    },
+    "plugins": [],
+    "meta": {
+        "api_version": "1.0"
+    }
+} 
