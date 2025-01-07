@@ -1,6 +1,6 @@
 version: 0.0.1
 type: plugin
-author: evanchen
+author: Yevanchen
 name: human_in_the_loop
 label:
   en_US: human_in_the_loop
